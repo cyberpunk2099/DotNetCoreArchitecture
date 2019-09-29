@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <BuildServerSideRenderer>false</BuildServerSideRenderer>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+        <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.AspNetCore" Version="9.7.0" />
+        <PackageReference Include="DotNetCore.IoC" Version="9.7.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Application\DotNetCoreArchitecture.Application.csproj" />
+        <ProjectReference Include="..\Database\DotNetCoreArchitecture.Database.csproj" />
+    </ItemGroup>
+</Project>

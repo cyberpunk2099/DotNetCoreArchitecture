@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.EntityFrameworkCore" Version="9.7.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\DotNetCoreArchitecture.Domain.csproj" />
+        <ProjectReference Include="..\Model\DotNetCoreArchitecture.Model.csproj" />
+    </ItemGroup>
+</Project>
